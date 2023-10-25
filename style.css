@@ -28,6 +28,16 @@ body {
     animation: float 2s infinite;
 }
 
+/*added hover effect*/
+.pumpkin:hover {
+    background-color: #000;
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+/*-------------*/
+
+
 .pumpkin .texture {
     height: 10.8em;
     width: 6.5em;
