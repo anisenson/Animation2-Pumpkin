@@ -35,7 +35,42 @@ body {
     transition: 1s;
 }
 
-/*-------------*/
+.pumpkin:hover .eye.right {
+    border-left: 2.4em solid #3c346c;
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+.pumpkin:hover .eye.left {
+    border-right: 2.4em solid #3c346c;
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+.pumpkin:hover .mouth {
+    border-bottom: 1em solid #3c346c;
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+.pumpkin:hover .teeth {
+    border-left: 0.8em solid #3c346c;
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+.pumpkin:hover .teeth:before {
+    border-left: 1em solid #3c346c;
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+.pumpkin:hover .teeth:after {
+    border-left: 1em solid #3c346c;
+    transition: ease-in-out;
+    transition: 1s;
+}
+/*----------*/
 
 
 .pumpkin .texture {
